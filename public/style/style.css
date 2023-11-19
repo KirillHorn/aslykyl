@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+	color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+	
+}
+body {
+	background-image: url("/img/fon.png");
+
+}
+
+
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/* Links */
+
+a, a:link, a:visited  {
+    text-decoration: none;
+}
+
+a:hover  {
+    text-decoration: none;
+}
+
+/* Common */
+
+aside, nav, footer, header, section, main {
+	display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-size: inherit;
+	font-weight: inherit;
+	color: #ffffff;
+}
+
+ul, ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+img, svg {
+	max-width: 100%;
+	height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+
+input, textarea, button, select {
+	font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button, input[type="submit"] {
+    display: inline-block;
+    box-shadow: none;
+    background-color: transparent;
+    background: none;
+    cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+    outline: none;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+label {
+	cursor: pointer;
+}
+
+legend {
+	display: block;
+}
+
+.header_main {
+    display: flex;
+	justify-content: space-between;
+	font-size: 18px;
+	height: 100px;
+	align-items: center;
+}
+
+.elemant-Logo {
+	font-weight: 900;
+	font-size: 24px;
+	margin-top: 10px;
+}
+
+.nav_element {
+	gap: 40px;
+	display: flex;
+}
+
+.nav_element a {
+	display: block;	
+}
+.caption_main {
+	height: 600px;
+	display: flex;
+	
+    gap: 400px;
+	margin-top: 200px;
+
+}
+.element_social {
+	display: flex;
+	gap: 10px;
+	writing-mode:vertical-rl;
+}
+.element_social img {
+	width: 24px;
+	height: 24px;
+}
+.caption {
+	font-size: 60px;
+}
+.inscription {
+	display: flex;
+	gap: 10px;
+	height: 10px;
+}
+.rectangle {
+	width: 72px;
+	height: 2px;
+	margin-top: 12px;
+	background-color: #008CC8;
+}
+.inscription p {
+		color: #008CC8;
+		font-size: 18px;
+		font-weight: Bold;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+}
+.inscription span {
+	line-height: 20px;
+}
+.section_element_1 {
+	display: flex;
+	gap: 200px;
+}
+.section_element_1 img {
+	width: 600px;
+	height: 620px;
+}
+.text_drive {
+   margin-top: 5%;
+}
+.drive_caption {
+	font-size: 68px;
+	font-weight: 900;
+	margin-bottom: 10px;
+}
+.section_slider {
+	height: 500px;
+	margin-top: 250px;
+	/* margin-bottom: 250px; */
+}
+.inscription_tur {
+	display: flex;
+	gap: 10px;
+	height: 10px;
+	justify-content: center;
+	
+}
+.inscription_tur p {
+	color: #008CC8;
+	font-size: 18px;
+	font-weight: Bold;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+.upper_basement {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.upper_button {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+.upper_button p {
+	margin-top: 20px;
+}
+.lower_basement {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 70px;
+}
+.input_email {
+	border-bottom: 1px solid #008CC8;
+	height: 30px;
+	width: 150px;
+}
+.footer_navigation {
+	display: flex;
+	flex-direction: column;
+	gap: 5px	;
+}
+.footer_navigation p {
+	color: #008CC8;
+	margin-top: 10px;
+}
